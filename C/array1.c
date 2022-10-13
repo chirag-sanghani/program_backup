@@ -1,4 +1,3 @@
-Updated sheet
 //array -> sum of 2 numbers.
 
 #include<stdio.h>
