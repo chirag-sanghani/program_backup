@@ -1,0 +1,226 @@
+/* 
+    PADDING 
+    MARGIN
+    CSS BOX SIZING MODEL
+    WIDTH
+    HEIGHT
+    MAX-WIDTH
+    MAX-HEIGHT
+    MIN-WIDTH
+    MIN-HEIGHT
+    LISTING STYLE
+    CSS BOX SHADOW 
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* padding and margin */
+.demo{
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+}
+.border{
+    border:2px solid purple;
+    display: flex
+}
+
+
+
+
+ /* CSS MARGIN */
+.demo-1{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(236, 78, 78);
+    border:5px solid blue;
+   /* margin:100px; */
+    /* top right bottom left */
+    /* margin-top:50px; */
+      /* top */
+    /* margin-left:100px; */
+      /* left */
+    /* margin-right:50px; */
+     /* right */
+    /* margin-bottom:20px; */
+       /* bottom*/
+    /* margin:20px 40px; */
+        /* top-bottom left-right */
+    /* margin:10px 20px 30px; */
+      /* top  left-right bottom */
+    /* margin:10px 20px 30px 40px; */
+     /* top right bottom left */
+   
+}
+
+.demo-1{
+    /* height: 300px; */
+    /* width: 600px; */
+    /* background-color: rgb(236, 78, 78); */
+    /* border:5px solid blue; */
+     /* padding:30px; */
+       /* top right bottom left */
+    /* padding-top:50px; */
+     /* top */
+    /* padding-left:100px;     */
+    /* left */
+    /* padding-right:100px;   */
+     /* right */
+    /* padding-bottom:50px; */
+     /* bottom */
+    /* padding:20px 40px; */
+     /* top-bottom left-right */
+    /* padding:10px 20px 30px;  */
+     /* top left-right bottom */
+    padding:10px 20px 30px 40px;
+    /* margin: 10px 20px 30px 40px; */
+      /* top right bottom left */
+      text-align: justify;
+}
+
+.div-1{
+    height:200px;
+    width:200px;
+    background-color: blue;
+    margin:20px;/* top right bottom left*/
+    margin-top:50px;/* top */
+    margin-left:100px;/* left */
+    margin-right:50px;/* right */
+    margin-bottom:20px;/* bottom */
+    margin:20px 40px; /*  top20 bottom20 left40 right40 */
+    margin:10px 20px 30px;/* top10 left20 right20 bottom30 */
+    margin:10px 20px 30px 40px;/* top10 right20 bottom30 left40 */
+}
+.div-2{
+    height: 300px;
+    width:300px;
+    background-color: red;
+    padding:20px;/* top right bottom left*/
+    padding-top:50px;/* top */
+    padding-left:100px;/* left */
+    padding-right:50px;/* right */
+    padding-bottom:20px;/* bottom */
+    padding:20px 40px; /*  top20 bottom20 left40 right40 */
+    padding:10px 20px 30px;/* top10 left20 right20 bottom30 */
+    padding:10px 20px 30px 40px;/* top10 right20 bottom30 left40 */
+}
+
+
+/* box-sizing properties */
+
+.content-box{
+    height:300px;
+    width:300px;
+    background-color: rgb(0, 255, 94);
+    border:10px solid blue;
+    padding:10px;
+    box-sizing: content-box; /* defult */
+}
+
+.border-box{
+    height:300px;
+    width:300px;
+    background-color: red;
+    border:10px solid blue;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+/* css width / height */
+
+.box-1{
+    max-width:500px;
+    background-color: yellowgreen;
+    margin-bottom: 100px;
+}
+
+.box-2 {
+    min-width:800px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.box-3{
+    max-width:500px;
+    max-height:200px;
+    background-color: blue;
+    margin-bottom: 200px;
+}
+.box-4{
+    min-width:500px;
+    min-height:200px;
+    background-color: brown;
+    margin-bottom: 100px;
+}
+.box-5{
+    min-height:100px;
+    background-color: yellow;
+}
+
+
+/* listing tag and table tag in css */
+
+
+/* listing tag */
+
+
+/*
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+ol {
+    list-style-type: armenian;
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+    list-style-type: georgian;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-latin;
+    list-style-type: lower-roman;
+    list-style-type: none;
+    list-style-type: upper-alpha;
+    list-style-type: upper-latin;
+    list-style-type: upper-roman;
+}
+
+
+/* unorder list */
+
+ul {
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-image: url("../asset/image/star.png");
+    list-style-position: outside;
+}
+
+
+/* css box-shadow */
+
+
+.box-1{
+    height:300px;
+    width:300px;
+    background-color: blue;
+    box-shadow:0px 0px 5px rgb(255, 0, 0);
+    /* x-axix y-axis bluriness background-color */
+}
+
+
+.box-2{
+    margin-top:50px;
+    height:300px;
+    width:300px;
+    background-color: rgb(46, 86, 6);
+    box-shadow: -10px -10px 10px rgba(32, 134, 18, 0.396);
+    margin-left: 200px;
+}

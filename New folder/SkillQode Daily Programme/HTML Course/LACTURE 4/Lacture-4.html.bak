@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML- LECTURE 2</title>
+</head>
+<body>
+		<!-- marquee tag  / Block level tag -->
+        <!-- this tag is work in web pages for scrolleble text in perticuler direction-->
+            <marquee direction="left/right/up/down" loop="10" scrollamount="50" scrolldelay="500" bgcolor="pink" height="200" width="200" behavior="scroll/slide"></marquee>
+    
+      <!-- Listing tag / block level tag -->
+      <!-- 
+        ol :- order list
+        ul :- unorder list
+        li :- listing item
+        dl :- discription list
+        dt :- discription title
+        dd :- discription data
+      -->
+      <!--
+        srart="1"
+        type="A/a/I/i"
+      -->
+
+        <!-- order list -->
+            <ol start="5" type="">
+                <li>optoion-1</li>
+                <li>optoion-2</li>
+                <li>optoion-3</li>
+                <li>optoion-4</li>
+                <li>optoion-5</li>
+                <li>optoion-6</li>
+            </ol>
+        <!-- unorder list -->
+            <ul>
+                <li>optoion-1</li>
+                <li>optoion-2</li>
+                <li>optoion-3</li>
+                <li>optoion-4</li>
+                <li>optoion-5</li>
+                <li>optoion-6</li>
+            </ul>
+        <!-- discription list -->
+            <dl>
+                <dt>Fruits</dt>
+                <dd>apple</dd>
+                <dd>mango</dd>
+                <dd>watermelon</dd>
+                <dd>banana</dd>
+                <dt>Browsers</dt>
+                <dd>crome</dd>
+                <dd>opera</dd>
+                <dd>safari</dd>
+                <dd>mozila firefox</dd>
+            </dl>
+
+        <!-- Nesting list -->
+            <ol>
+                <li>
+                    <dl>
+                        <dt>Fruits</dt>
+                        <dd>apple</dd>
+                        <dd>mango</dd>
+                        <dd>watermelon</dd>
+                        <dd>banana</dd>
+                        <dt>Browsers</dt>
+                        <dd>crome</dd>
+                        <dd>opera</dd>
+                        <dd>safari</dd>
+                        <dd>mozila firefox</dd>
+                    </dl>
+                </li>
+                <li>
+                    <ul>
+                        <li>optoion-1</li>
+                        <li>optoion-2</li>
+                        <li>optoion-3</li>
+                        <li>optoion-4</li>
+                        <li>optoion-5</li>
+                        <li>
+                            <ol start="5" type="">
+                                <li>optoion-1</li>
+                                <li>optoion-2</li>
+                                <li>optoion-3</li>
+                                <li>optoion-4</li>
+                                <li>optoion-5</li>
+                                <li>optoion-6</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        
+        <!-- Html Comment  -->
+
+            <!-- html content-->
+        
+        <!--html formatting tag / inline tag-->
+            <b>this is bold text.</b>
+            <strong>this is strong text.</strong>
+            <i>this is italic text.</i>
+            <em>this is emphesize text.</em>
+            <mark>this is makeble text.</mark>
+            <small>this is small text.</small>
+            <del>this is deleted text.</del>
+            <ins>this is added text.</ins>
+            <!-- superscript text-->
+                10<sup>th</sup>
+            <!-- subscript text-->
+                H<sub>2</sub>O
+        
+        <!-- html input types -->
+        <input type="button">
+        <input type="button" value="Save">
+        <input type="checkbox">
+        <input type="radio">
+        <input type="radio" name="index">
+        <input type="radio" name="index">
+        <input type="text">
+        <input type="date">
+        <input type="time">
+        <input type="datetime-local">
+        <input type="password">
+        <input type="submit">
+        <input type="reset">
+        <input type="mail">
+        <input type="tel">
+        <input type="range">
+        <input type="month">
+        <input type="week">
+        <input type="number">
+        <input type="image">
+        <input type="hidden">
+        <input type="url">
+        <input type="color">
+        <input type="search">
+        <input type="file">
+        
+</body>
+</html>

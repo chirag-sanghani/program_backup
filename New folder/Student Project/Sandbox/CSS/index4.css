@@ -1,0 +1,15 @@
+*{
+   box-sizing: border-box;
+ }
+   
+body {
+    margin:0;
+}
+
+header {
+        background-image:url("../image/pink66.jpg");
+		width:100%;
+}
+	
+
+   

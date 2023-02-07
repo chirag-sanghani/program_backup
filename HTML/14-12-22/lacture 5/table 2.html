@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            table, td, th{
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 500px;
+                height:50px;
+                margin-bottom: 50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption> <i> <b> A test table with merged cells </b> </i> </caption>
+            <colgroup>
+                <col span="1" bgcolor="lightblue">
+                <col span="2" bgcolor="red">
+                <col span="3" bgcolor="pink">
+            </colgroup>
+                <tr>
+                    <th rowspan="2"> </th>
+                    <th colspan="2">Average</th>
+                    <!-- <th>Null</th> -->
+                    <th rowspan="2">Red <br> eyes</th>
+                </tr>
+                <tr>
+                    <!-- <td>Null</td> -->
+                    <td>height</td>
+                    <td>Weight</td>
+                    <!-- <td>Null</td> -->
+                </tr>
+                <tr>
+                    <td>Males</td>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td>Females</td>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43%</td>
+                </tr>
+        </table>
+    </body>
+</html>

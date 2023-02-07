@@ -1,0 +1,257 @@
+
+/*  CSS INDEX
+    css selector
+    acceptable values
+    css @import rule
+    css resetting value
+    css combinator selector
+    css link selector
+    css color
+    css background properties
+*/
+
+/* @import rule */
+
+/* @import 'L-1-1.css'; */
+
+/* body{
+    background-color: yellow;
+} */
+
+/* css resetting all properties value */
+
+/* .para-11 p{
+    color:red;
+}
+.text .para-22 p{
+    color:green;
+}
+
+.para-22 p{
+    color:green;
+}
+
+p{
+    color:brown;
+    text-decoration: underline;
+}
+
+.para-11 p{
+    color:unset;
+}
+p{
+    color: unset;
+}
+.text .para-22 p{
+    color: unset;
+} */
+
+
+/* Universal selector */
+
+/* *{
+    color:red;
+}
+
+.para-text p{
+    color:green;
+}
+#t22 p{
+    color:orange;
+}
+
+p{
+    color:red;
+} */
+
+/*css simple tag selector*/
+
+/* p{
+    color:purple;
+} */
+
+ /* css class selector */
+
+/* .div-3{
+    color:red;
+
+}
+.div-2{
+    background: none;
+}
+.div-1{
+    background-color:yellow;
+    text-decoration: underline;
+} */
+
+/*css id selector*/
+
+/* #box-1{
+    background-color: purple;
+}
+#box-1{
+    background-color: brown;
+}
+#box-2{
+    background-color: red;;
+}
+#box-2{
+    background-color: yellow;
+} */
+
+/* Examples Combinator selector */
+
+/* Descendent selector */
+
+/* .demo-1 , .demo-2 , .back-2{
+    color:blue;
+    font-size: 20px;
+    background-color: yellow;
+} */
+
+/* child selector */
+
+/* .demo-2 > p{
+    color:brown;
+    text-decoration: line-through;
+} */
+
+/* adjuacent sibling selector*/
+
+/* p + h1{
+    color:blueviolet;
+    text-transform: capitalize;
+    background-color: yellow;
+} */
+
+/* general sibling selector*/
+
+/* .demo-4 ~ h1 , p{
+    color:rgb(138, 8, 8);
+    text-transform: capitalize;
+    text-decoration: underline;
+} */
+
+/* link selector */
+
+/* 
+    link
+    active
+    hover
+    visited
+*/
+
+/* a{
+    background-color: rgb(68, 188, 243);
+}
+a:link{
+    color:rgb(0, 0, 0);
+}
+
+a:active{
+    color:rgb(230, 71, 211);    
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:visited{
+    color:rgb(228, 183, 183);
+    background-color: yellow;
+    text-decoration: none;
+}  */
+
+
+/* css color */
+
+/* .box-1{
+    height:100px;
+    width:200px;
+    background-color:rgb(255,2,255);
+}
+.box-2{
+    height:100px;
+    width:200px;
+    background-color: rgba(255, 0, 0, 1);
+}
+.box-3{
+    height:100px;
+    width:200px;
+    background-color: #4545ff;
+}
+.box-4{
+    height:100px;
+    width:200px;
+    background-color:hsl(240,100%,50%);
+}  */
+
+/* .transparent{
+    height: 200px;
+    background-color: rgb(255,0,0);
+} */
+
+/* css background properties */
+
+
+/* .back-1{
+    height:800px;
+    width:1600px;
+    background-image: url("../asset/image/100x100.gif");
+    color:hsl(240deg,100%,100%);
+    background-position:center;
+    background-repeat: repeat-y;
+
+} */
+/* .back-2{
+    height:100vh;
+    background-image:url("../asset/image-1.png");
+    background-repeat:no-repeat;  
+    background-size: cover;
+    background-position:center; 
+    background-attachment:fixed;
+} */
+
+/* .linear-gradient-1{
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to top, red, blue , yellow);
+}
+
+.diagonal-linear-gradient {
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to bottom right, red , yellow 100%);
+}
+
+.linear-gradient-rainbow {
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet)
+}
+
+.radial-gradient-simple {
+    height: 100vh;
+    width:100%;
+    background: radial-gradient( red, orange, yellow, green, blue, indigo, violet);
+}
+
+.radial-gradient {
+    height: 100vh;
+    width:100%;
+    background: radial-gradient(circle farthest-corner at left, red, blue);
+}
+
+.bullseye {
+    height: 100vh;
+    width:100%;
+    background: repeating-radial-gradient(red, red 15%, white 10%, white 20%);
+}
+
+.warning {
+    height: 100vh;
+    width:100%;
+    background: repeating-linear-gradient(-45deg, yellow, yellow 10%, black 10%, black 20% );
+} */

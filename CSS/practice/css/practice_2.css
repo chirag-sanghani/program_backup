@@ -1,0 +1,189 @@
+input{
+    accent-color: light rgb(135, 243, 57);
+}
+
+/* input::placeholder{
+    color: green;
+    text-decoration: underline;
+} */
+
+/* input:focus{
+    border: none;
+    outline: 2px solid black;
+} */
+
+/* input:hover{
+    border: 2px solid yellow;
+    outline: 2px solid red;
+} */
+
+/* ::marker{
+    color: rgb(220, 20, 137);
+} */
+
+/* div:empty{
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+    border: 1px solid red;
+} */
+
+/* *:read-only{
+    font-size: 30px;
+    color: darkmagenta;
+} */
+
+/* *:read-write{
+    font-size: 25px;
+    font-style: oblique;
+    color: red;
+} */
+
+/* :root{
+    --color-1:lightpink;
+    --color-2:red;
+}
+
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: var(--color-1);
+    border: 1px solid blue;
+} */
+
+/* [target=_blank]{
+    color: darkgoldenrod;
+} */
+
+/* [target=_blank]{
+    color: fuchsia;
+    text-decoration: none;
+} */
+
+/* *:lang("en"){
+    color: green;
+    background-color: salmon;
+} */
+
+/* css pseudo class */
+
+/* 
+:first-child
+:first-of-type
+:last-child
+:last-of-type
+:not()
+:nth-child()
+:nth-last-child()
+:nth-last-of-type()
+:nth-of-type()
+:only-of-type
+:only-child
+ */
+
+/* h1:first-child{
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:first-of-type{
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:last-child{
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:last-of-type{
+    color: red;
+    background-color: yellow;
+} */
+
+/* p:not(h1){
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:nth-child(2){
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:nth-last-child(1){
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:nth-last-of-type(1){
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:nth-of-type(2){
+    color: red;
+    background-color: yellow;
+} */
+
+/* p:only-of-type{
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:only-child{
+    color: red;
+    background-color: yellow;
+} */
+
+/* css pseudo element */
+
+/*
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+*/
+
+/* h1::after{
+    content: "Style after H1";
+    height: 50px;
+    width: 50px;
+    color: yellow;
+    background-color: brown;
+} */
+
+/* h1::before{
+    content: "Style before H1 ";
+    height: 100px;
+    width: 100px;
+    color: yellow;
+    background-color: brown;
+} */
+
+/* h1::first-letter{
+    font-size: 30px;
+    color: yellow;
+    background-color: brown;
+} */
+
+/* p::first-line{
+    font-size: 30px;
+    color: yellow;
+    background-color: brown;
+    text-decoration: underline;
+} */
+
+h1::selection{
+    color: yellow;
+    background-color: brown;
+}
+
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: yellow;
+    border: 2px solid blue;
+    size: 500px;
+}

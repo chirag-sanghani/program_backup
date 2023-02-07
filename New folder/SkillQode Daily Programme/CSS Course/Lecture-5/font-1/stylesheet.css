@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Trispace';
+    src: url('Trispace-Thin.eot');
+    src: url('Trispace-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Trispace-Thin.woff2') format('woff2'),
+        url('Trispace-Thin.woff') format('woff'),
+        url('Trispace-Thin.ttf') format('truetype'),
+        url('Trispace-Thin.svg#Trispace-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

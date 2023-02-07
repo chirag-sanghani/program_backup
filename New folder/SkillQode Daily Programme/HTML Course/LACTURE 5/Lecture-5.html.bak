@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta tag -->
+        <meta charset="utf-8">
+        <meta name="keyword" content="keyword">
+        <meta name="discription" content="discription">
+        <meta name="author" name="john parker">
+        <meta name="viewport" name="width=device-width , initial-scale=1.0">
+        <title>Html-Lecture-5</title>
+        <style>
+            table, th, td{
+                border:1px solid blue;
+                border-collapse: collapse;
+                width:500px;
+                height:50px;
+                margin-bottom:50px;
+            }
+
+            form{
+                width:300px;
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Html Table Tag -->
+            <table border="2" height="300px" width="500px" align="center" bgcolor="pink">
+                <caption> This is Table Tag </caption>
+                <tr>
+                    <th>First_Name</th>
+                    <th>Last_Name</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>sonoo</td>
+                    <td>jaiswal</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>james</td>
+                    <td>william</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>swati</td>
+                    <td>sironi</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>chetna</td>
+                    <td>singh</td>
+                    <td>72</td>
+                </tr>
+            </table>
+
+            <hr style="border-top:2px solid red;">
+        <!-- colspan and rowspan in html table -->
+
+            <table>
+                <caption> This is Table Tag </caption>
+                <tr>
+                    <th colspan="2">Name</th>
+                    <!-- <th>Last_Name</th> -->
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>sonoo</td>
+                    <td>jaiswal</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>james</td>
+                    <td>william</td>
+                    <td rowspan="3">80</td>
+                </tr>
+                <tr>
+                    <td>swati</td>
+                    <td>sironi</td>
+                    <!-- <td>82</td> -->
+                </tr>
+                <tr>
+                    <td>chetna</td>
+                    <td>singh</td>
+                    <!-- <td>72</td> -->
+                </tr>
+            </table>
+            <hr style="border-top:2px solid red;">
+        <!-- colgroup in html table -->
+
+            <table>
+                <caption> This is Table Tag </caption>
+                <colgroup>
+                    <col span="2" bgcolor="red">
+                </colgroup>
+                <tr>
+                    <th>First_Name</th>
+                    <th>Last_Name</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>sonoo</td>
+                    <td>jaiswal</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>james</td>
+                    <td>william</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>swati</td>
+                    <td>sironi</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>chetna</td>
+                    <td>singh</td>
+                    <td>72</td>
+                </tr>
+            </table>
+            <hr style="border-top:2px solid red;">
+        
+    </body>
+</html>

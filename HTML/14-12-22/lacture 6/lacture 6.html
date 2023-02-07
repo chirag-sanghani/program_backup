@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- meta tag-->
+    <meta charset="utf-8">
+    <meta name="keyword" content="keyword">
+    <meta name="discription" content="discription">
+    <meta name="author" content="author">
+    <meta name="viewport" content="width=device-width , initial-sacle=1.0">
+    <title>HTML</title>
+    <!-- favicone tag-->
+    <link rel="icon" type="x-icon/image" href="asset/eiffel-tower.jpg">
+    <style>
+        form {
+            background-color: red;
+            text-align: center;
+        }
+        
+        textarea {
+            resize: none;
+        }
+
+        nav a{     
+            text-decoration: none;
+            color:green;
+            background-color: brown;
+            margin: 10px;
+        }
+        nav{
+            background-color: blue;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- textarea-->
+        <textarea cols="20" rows="20"></textarea>
+
+    <!-- form tag -->
+
+        <form action="" id="" style="background-color: yellow;">
+            <fieldset>
+                <legend>FORM in html</legend>
+                <figcaption>Form in Html</figcaption><br>
+                <label for="firstname">First_Name:</label>
+                <input type="text" placeholder="first-name" name="name" value="" required><br><br>
+                <label>Last_Name:</label>
+                <input type="text" placeholder="last-name" required ><br><br>
+                <label>Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>Male</label>
+                <input type="radio" name="form" value=" " required>
+                <label>Female</label>
+                <input type="radio" name="form" value=" " required><br><br>
+                <label>Password:</label>&nbsp;&nbsp;&nbsp;
+                <input type="password" required><br><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    <hr style="border-top:2px solid red;">
+
+    <!-- select tag / inline tag -->
+
+                <select name="" value="">
+                    <option value="Opera" selected>Opera</option>
+                    <option value="Crome">Crome</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Microsoft Edge">Microsoft Edge</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Crome">Crome</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Microsoft Edge">Microsoft Edge</option>
+                </select>
+        <hr style="border-top:2px solid red;">
+
+    <!-- datalist tag / inline tag  -->
+        <input list="list" name="browsers" value="">
+            <datalist id="list">
+                    <option value="Opera">
+                    <option value="Crome">
+                    <option value="Firefox">
+                    <option value="Safari">
+                    <option value="Microsoft Edge">
+            </datalist>
+        <hr style="border-top:2px solid red;">
+
+    <!-- span tag / inline tag -->
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<span style="color:red; font-weight:bold; text-decoration:underline;">Est voluptatem doloremque neque omnis voluptates adipisci</span> minus ullam vero voluptatibus.</p>
+
+        <hr style="border-top:2px solid red;">
+
+    <!-- iframe tag -->
+        <iframe src="../animation.html" frameborder="0" width="500px" height="500px"></iframe>
+        <hr style="border-top:2px solid red;">
+
+    <!-- nav tag -->
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Pages</a>
+            <a href="#">About</a>
+            <a href="#">Contect</a>
+            <a href="#">Blogs</a>
+            <a href="#">Other</a>
+        </nav>
+        <hr style="border-top:2px solid red;">
+
+    <!--audio and video tag -->
+
+    <!-- audio tag -->
+
+        <audio controls muted loop="" autoplay preload="none">
+            <source src="../audios.mp3" type="audio/mp3">
+        </audio>
+        <hr style="border-top:2px solid red;">
+
+    <!-- video tag -->
+
+            <video controls  muted  preload="" poster="asset/eiffel-tower.jpg" height="300px" width="300px" loop="">
+                <source src="../videos.mp4" type="video/mp4">
+            </video>
+</body>
+</html>

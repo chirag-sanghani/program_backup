@@ -1,0 +1,187 @@
+
+/*  css pseudo class */
+
+/* accent-color*/
+
+input{
+    accent-color:rgb(255, 0, 230);
+}
+
+/* 
+    :disabled
+    :enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    ::marker
+
+*/
+
+
+/* input::placeholder{
+    color:green;
+    text-decoration: underline;
+} */
+
+
+/* input:focus{
+    border:none;
+    outline:5px solid rgb(47, 250, 240);
+} */
+
+/* input:hover{
+    border:2px solid red;
+    outline:2px solid blue;
+} */
+
+/* ::marker{
+    color:rgb(92, 35, 233);
+} */
+
+/*
+    :empty
+    :invalid
+    :read-only
+    :read-write
+    :root
+    :target
+    :valid 
+    :lang()
+
+*/
+
+/* div:empty{
+    height: 100px;
+    width:100px;
+    background-color: purple;
+} */
+
+/* *:read-only{
+    font-size: 50px;
+    color:blue;
+} */
+
+/* *:read-write{
+    font-size: 35px;
+    font-style: italic;
+    color:red;
+} */
+
+/* :root{
+    --color-1:red;
+    --color-2:green;
+} */
+
+/* .boxx-1{
+    height: 100px;
+    width:100px;
+    background-color: var(--color-2);
+} */
+
+/* [target=_blank]{
+    color:red;
+} */
+
+/* [target=_blank]{
+    color:rgb(255, 0, 251);
+    text-decoration: none;
+} */
+
+/* *:lang("en"){
+    color:green;
+    background-color: red;
+} */
+
+/* css pseudo class */
+
+/*
+
+:first-child
+:first-of-type
+:last-child
+:last-of-type
+:not()
+:nth-child()
+:nth-last-child()
+:nth-last-of-type()
+:nth-of-type()
+:only-of-type
+:only-child
+
+*/      
+
+/* h1:only-child{
+    color:red;
+    background-color: green;
+} */
+
+/* p:not(h1){
+    color:red;
+    background-color: yellow;
+} */
+
+
+/* css pseudo element */
+
+/*
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+*/
+
+
+/* css after and before */
+
+/* h1::after{
+    content: "asdfsdjfskfhj";
+    background-color: red;
+    height: 100px;
+    width:100px;
+    color:yellow;
+} */
+
+/* .shadow-1{
+    height:200px;
+    width:200px;
+    background-color: red;
+    border:2px solid yellow;
+    
+} */
+
+/* h1::first-letter{
+    font-size: 50px;
+    color:red;
+    background-color: yellow;
+} */
+
+/* p::first-line{
+    font-size: 20px;
+    color:red;
+    text-decoration: underline;
+} */
+
+/* p::selection{
+    background-color: yellow;
+    color:blue;
+} */
+
+
+
+/* 
+[attr] <div attr> With attribute attr 2
+[attr='val'] <div attr="val"> Where attribute attr has value val 2
+[attr~='val'] <div attr="val val2 val3"> Where val appears in the whitespace-separated list of attr 2
+[attr^='val'] <div attr="val1 val2"> Where attr's value begins with val 3
+[attr$='val'] <div attr="sth aval"> Where the attr's value ends with val 3
+[attr*='val'] <div attr="somevalhere"> Where attr contains val anywhere 3
+[attr|='val'] <div attr="val-sth etc">Where attr's value is exactly val,
+or starts with val and immediatelyfollowed by - (U+002D)2
+[attr='val' i] <div attr="val"> Where attr has value val,ignoring val's letter casing. 4(2)
+ */
+    
+
+

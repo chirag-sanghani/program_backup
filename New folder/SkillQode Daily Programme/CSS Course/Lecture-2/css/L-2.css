@@ -1,0 +1,473 @@
+/* 
+    CSS BORDER
+    MULTIPLE BORDER
+    BORDER-RADIUS
+	CSS OUTLINE
+	CSS OPACITY
+    CSS BUTTON
+    CSS FONT PROPERTIES
+	CSS TEXT PROPERTIES
+	CSS VERTICLE ALIGN
+    CSS WHITE SPACE
+    CSS VISIBILITY
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+
+/* css border properties */
+
+/* css border types
+    solid
+    dotted
+    dashed
+    double
+    hidden
+    none
+    ridge
+    inset
+    outset
+    groove
+*/
+
+.main{
+    display: flex;
+    padding: 10px;
+   /* border:1px solid red; */
+    /* SHORT HAND METHOD */
+    border-width:10px;
+    border-color:green;
+    border-style:dashed;
+    border-top-width:20px;
+    border-right-color:yellow;
+    border-bottom-style:ridge;
+}
+.box-1{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px dotted red;
+}
+.box-2{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px solid red;
+}
+.box-3{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px inset red;
+}
+.box-4{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px outset red;
+}
+.box-5{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px double red;
+}
+.box-6{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px ridge red;
+}
+.box-7{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px none red;
+}
+.box-8{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px dashed red;
+}
+.box-9{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px groove red;
+}
+.box-10{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px hidden red;
+    /* short hand method*/
+}
+.box-1{
+    /* shorthand method */
+    /* border-width:5px; */
+    /* border-style:dotted; */
+    /* border-color:blue; */
+    /* border-top-style:dotted; */
+    /* border-right-width:10px; */
+    /* border-right-color:red; */
+    /* border-top:none; */
+    /* border-left:none; */
+    border-radius: 40px;
+    /*left-top right-top left-bottom right-bottom/*shorthand method*/
+    border-radius:10px 50px;
+    /* left-top right-bottom / right-top left-bottom */
+    border-radius: 10px 50px 100px;
+    /* left-top / right-top left-bottom / right-bottom*/
+    border-radius: 10px 50px 70px 100px;
+    /* left-top /right-top /right-bottom /left-bottom*/
+    /* border-top-left-radius: 100px; */
+    
+} 
+
+/* table, th{
+    margin-top: 100px;
+    border:5px solid red;
+    border-collapse: collapse;
+} */
+/*
+border-color
+border-style
+border-width
+border:width style color; shorthand method
+border-top-style
+border-left-width
+border-right-color
+border-bottom:none
+*/
+
+/* css outline properties */
+
+/*
+outline-width
+outline-style
+outline-color
+outline:none;
+outline:width style color; shorthand method
+*/
+
+.boxx-2{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    border:5px solid rgb(243, 6, 6);
+    outline: 5px solid purple;
+    outline-offset: 20px;
+    margin-left:200px;
+    margin-top: 200px;
+}
+
+
+/* css opacity */
+
+.opacity{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    opacity:0.7;
+    color:rgb(0, 0, 255);
+}
+
+
+/* css button */
+
+button{
+    background-color: red;
+    border: 15px;
+    border-color: darkorange;
+    padding:10px 50px;
+    color:white;
+    font-weight: bold;
+    border-radius:5px; 
+}
+
+button:hover{
+    outline:2px solid rgb(255, 0, 0);
+    outline-offset: 1px;
+    background-color: rgb(132, 255, 0);
+    color:red;
+}
+
+.link-1{
+    text-decoration: none;
+    padding:10px 20px;
+    background-color: red;
+    color:white;
+    /* border-radius: 10px; */
+    /* left-top right-top right-bottom left-bottom */
+    /* border-radius: 10px 15px; */
+    /* left-top / right-bottom , left-bottom / right-top */
+    /* border-radius: 10px 15px 20px; */
+    /* left-top , right-top /left-bottom , right-bottom */
+    /* border-radius: 10px 15px 20px 25px; */
+    /* left-top , right-top , right-bottom , left-bottom */
+}
+
+a:hover{
+    border:1px solid black;
+    background-color: rgba(0, 255, 119, 0.8);
+    color:blue;
+}
+
+a:focus{
+    border:1px solid black;
+    background-color: rgba(255, 0, 0, 0.42);
+    color:blue;
+}
+input{
+    background-color: red;
+    border:none;
+    padding:10px 20px;
+    color:white;
+    border-radius: 10px;
+}
+
+
+/* css font properties */
+
+/* 
+1.font-family / Google font
+2.font-size
+3.font-style
+4.font-variant
+5.font-weight
+6.line-height 
+*/
+
+/* font-family */
+
+.font-family p:nth-child(1){
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: normal;
+     font-variant: small-caps;
+     font-weight: lighter;
+}
+.font-family p:nth-child(2){
+    font-style: oblique;
+    font-style: italic;
+    font-variant: normal;
+}
+.font-family p:nth-child(3){
+    font-family: 'Comforter Brush', cursive;
+}
+
+/* font-size */
+
+.font-size p:nth-child(1){
+    font-size: 12px;
+}
+.font-size p:nth-child(2){
+    font-size: 18px;
+}
+.font-size p:nth-child(3){
+    font-size: 48px;
+}
+
+/* font-style */
+
+.font-style p:nth-child(1){
+    font-style: italic;
+}
+.font-style p:nth-child(2){
+    font-style: oblique;
+}
+
+/* font-variant */
+
+.font-variant p:nth-child(1){
+    font-variant:small-caps;
+}
+
+/* font-weight */
+
+.font-weight p:nth-child(1){
+    font-weight:bold;
+}
+.font-weight p:nth-child(2){
+    font-weight: bolder;
+}
+.font-weight p:nth-child(3){
+    font-weight: lighter;
+}
+
+/* line-height */
+
+.line-height p:nth-child(1){
+    line-height:50px;
+}
+
+
+/*css text-properties */
+
+/*
+1.Text-color
+2.Text-alignment
+3.Text-decoration
+4.Text-transformation
+5.Text-indentation
+6.Letter spacing
+7.Text-direction
+8.Text-shadow
+9.Word spacing
+10.Letter-spacing
+*/
+
+/* text-color */
+
+.text-color p{
+    color:green;
+}
+
+/* text-align */
+
+.text-align p:nth-child(1){
+    text-align: left;
+}
+.text-align p:nth-child(2){
+    text-align: center;
+}
+.text-align p:nth-child(3){
+    text-align: right;
+}
+.text-align p:nth-child(4){
+    text-align: justify;
+}
+
+/* text-decoration */
+
+.text-decoration p:nth-child(1){
+    text-decoration: overline;
+}
+.text-decoration p:nth-child(2){
+    text-decoration: line-through;
+}
+.text-decoration p:nth-child(3){
+    text-decoration: underline;
+}
+.text-decoration p:nth-child(4){
+    text-decoration: underline dotted;
+}
+.text-decoration p:nth-child(5){
+    text-decoration: wavy red line-through;
+}
+.text-decoration .link-2{
+    text-decoration: none;
+}
+
+/* text-transform */
+
+.text-transform p:nth-child(1){
+    text-transform: capitalize;
+}
+.text-transform p:nth-child(2){
+    text-transform: uppercase;
+}
+.text-transform p:nth-child(3){
+    text-transform: lowercase;
+}
+/* text-indent */
+.text-indent p:nth-child(1){
+    text-indent: 200px;
+}
+
+/* letter-spacing */
+
+.letter-spacing p{
+    letter-spacing: 10px;
+}
+/* word-spacing */
+.word-spacing p{
+    word-spacing: 20px;
+}
+
+/* text-direction */
+
+.text-direction p{
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+/* text-shadow */
+
+.text-shadow p:nth-child(1){
+    text-shadow: 50px 10px 1px rgb(255, 0, 0);
+    /* x-axis y-axis bulriness color*/
+}
+
+/* css verticle align */
+
+p .a{
+    vertical-align:bottom;
+}
+p .b{
+    vertical-align: baseline;
+}
+p .c{
+    vertical-align: middle;
+}
+p .d{
+    vertical-align: sub;
+}
+p .e{
+    vertical-align: super;
+}
+p .f{
+    vertical-align: text-bottom;
+}
+p .g{
+    
+    vertical-align: top;
+}
+
+.verticle p{
+    font-size: 30px;
+}
+
+/* css white space */
+
+.whitespace{
+    white-space:nowrap;
+    white-space: pre;
+    text-align: justify;
+}
+
+/* css word wrap */
+
+.whitespace{
+    word-wrap: normal;
+    word-wrap: break-word;
+}
+
+/* css visibility */
+
+/* .whitespace{
+    visibility: collapse;
+} */
+
+
+
+

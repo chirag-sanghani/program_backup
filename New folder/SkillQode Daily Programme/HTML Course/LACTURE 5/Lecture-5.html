@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html</title>
+        <style>
+            table, th, td{
+                border:1px solid blue;
+                border-collapse: collapse;
+                width:500px;
+                height:50px;
+                margin-bottom:50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Html Table Tag -->
+            <table class="name">
+                <caption> This is Table Tag </caption>
+                <thead>
+                    <tr>
+                        <th>NO.</th>
+                        <th>Full Name</th>
+                        <th>Position</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Bill Gates</td>
+                        <td>Founder Microsoft</td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Steave Jobs</td>
+                        <td>Founder Apple</td>
+                        <td>$1200</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry Page</td>
+                        <td>Founder Google</td>
+                        <td>$1100</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mark Zukerburg</td>
+                        <td>Founder Facebook</td>
+                        <td>$1300</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <hr style="border-top:2px solid red;">
+
+        <!-- colspan and rowspan in html table -->
+
+            <table>
+                <caption> This is Table Tag </caption>
+                <tr>
+                    <th colspan="2">First_Name</th>
+                    <!-- <th>Last_Name</th> -->
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>sonoo</td>
+                    <td>jaiswal</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>james</td>
+                    <td>william</td>
+                    <td rowspan="3" >80</td>
+                </tr>
+                <tr>
+                    <td>swati</td>
+                    <td>sironi</td>
+                    <!-- <td>80</td> -->
+                </tr>
+                <tr>
+                    <td>chetna</td>
+                    <td>singh</td>
+                    <!-- <td>80</td> -->
+                </tr>
+            </table>
+            <hr style="border-top:2px solid red;">
+
+        <!-- colgroup in html table -->
+
+            <table>
+                <caption> This is Table Tag </caption>
+                <colgroup>
+                    <col span="3" bgcolor="red">
+                </colgroup>
+                <tr>
+                    <th>First_Name</th>
+                    <th>Last_Name</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>sonoo</td>
+                    <td>jaiswal</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>james</td>
+                    <td>william</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>swati</td>
+                    <td>sironi</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>chetna</td>
+                    <td>singh</td>
+                    <td>72</td>
+                </tr>
+            </table>
+            <hr style="border-top:2px solid red;">
+        
+    </body>
+</html>

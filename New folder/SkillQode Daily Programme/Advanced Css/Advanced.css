@@ -1,0 +1,134 @@
+align-content : normal | baseline | center | stretch | flex-start | flex-end | space-between | space-around | space-evenly
+
+align-items : normal | baseline | center | stretch | flex-start | flex-end
+
+align-self : auto | baseline | center | stretch | flex-start | flex-end
+
+animation : animation-name    animation-duration    animation-delay    animation-direction    animation-iteration-count    animation-play-state    animation-fill-mode    animation-timing-function
+
+animation-delay : value (seconds ro milliseconds)
+ 
+animation-direction : normal | reverse | alternate | alternate-reverse
+
+animation-duration : +ve value (seconds or milliseconds)
+
+animation-fill-mode : none | forwards | backwards | both
+
+animation-iteration-count : +ve value | infinite
+
+animation-name : none | keyframe-name1, keyframe-name2,..
+
+animation-play-state : running | paused
+
+animation-delay : ease | ease-in | ease-out | ease-in-out
+
+backface-visibility : none | length
+
+background : background-color   background-image   background-position   /   background-size   background-repeat   background-attachment   background-origin   background-clip
+
+background-attachment : fixed | scroll | local
+
+background-blend-mode : normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity
+
+background-clip : border-box | padding-box | content-box
+
+background-color : color-name | rgb value | hexadecimal value
+
+background-image : none | url(), url(),...
+
+background-origin : border-box | padding-box | content-box
+
+background-position : [ percentage | length | left | center | right]    [percentage | length | top | center | bottom]
+
+background-repeat : no-repeat | repeat | repeat-x | repeat-y | space | round
+
+background-size : contain | cover | auto | length | percentage
+
+block-size : auto | +ve length
+
+border : border-width    border-style    border-color;
+
+border-block : border-block-width    border-block-style    border-block-color;
+
+border-block-color : border-block-start-color    border-block-end-color
+
+border-collapse : separate | collapse
+
+border-color : border-top-color   border-right-color   border-bottom-color   border-left-color
+
+border-image :border-image-source    border-image-slice    [ /border-image-width   |  / border-image-width / border-image-outset ]    border-image-repeat
+
+border-inline : border-inline-width    border-inline-style    border-inline-color;
+
+box-shadow : none | X-offset    Y-offset    blur-radius    spread-distance    shadow-color    [ inset ]
+
+box-sizing : content-box | border-box
+
+caption-side : top | bottom
+
+caret-color : color-name | rgb value | hexadecimal value
+
+clear : none | left | right
+
+flex-basis : auto | +ve integer
+
+flex-direction : row | row-reverse | column | column-reverse
+
+flex-flow : flex-direction   flex-wrap
+
+float : none | left | right
+
+font : font-style    font-variant    font-weight    font-stretch      font-size   /   line-height    font-family
+
+gap : row-gap    column-gap
+
+grid : grid-template | grid-template-rows / [ grid-auto-flow] grid-auto-columns | [grid-auto-flow] grid-auto-rows / grid-template-columns
+
+opacity : value between 0 and 1
+
+outline : outline-width    outline-style    outline-color
+
+overflow : overflow-x   overflow-y
+
+overflow-wrap : normal | break-word
+
+resize : none | both | horizontal | vertical
+
+position : static | relative | absolute | sticky | fixed
+
+stroke : currentColor | color-name | rgb value | hexadecimal value
+
+text-align : start | end | left | right | center | justify | match-parent
+
+text-indent : length | percentage
+
+text-overflow : clip | ellipsis
+
+text-shadow : none | horizontal-offset   vertical-offset   blur-radius   shadow-color
+
+text-transform : none | capitalize | uppercase | lowercase
+
+transform : none | translate() | rotate() | scale() | skew()
+
+transform-origin : [left | center | right | length | percentage ] [ top | bottom | length | percentage]
+
+transform-style : flat | preserve-3d
+
+transition : none | [ transition-property    transition-duration    transition-timing-function    transition-delay ]
+
+transition-timing-function : ease | ease-in | ease-out | ease-in-out
+
+vertical-align : baseline | text-bottom | middle | text-top | top | bottom | sub | super | length | percentage
+
+visibility : visible | hidden | collapse    
+
+width : auto | length | percentage | min-content | max-content
+
+
+word-break : normal | keep-all | break-all
+
+word-spacing : normal | length
+
+writing-mode : horizontal-tb | vertical-rl | vertical-lr
+
+z-index : integer | auto

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            table, td, th{
+                border: 1px solid black;
+                /* border-collapse: collapse; */
+                width: 600px;
+                height:50px;
+                margin-bottom: 50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption style="text-align: left;"> <h1> Basic HTML Table </h1> </caption>
+            <thead>
+                <tr>
+                    <th>Level 1</th>
+                    <th>Level 2</th>
+                    <th>Level 3</th>
+                    <th>Info</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="6">System</td>
+                    <td rowspan="4">System Apps</td>
+                    <td rowspan="3">System Env</td>
+                    <td>App Test</td>
+                    <td>foo</td>
+                </tr>
+                <tr>
+                    <!-- <td>1</td> -->
+                    <!-- <td>1</td> -->
+                    <!-- <td>1</td> -->
+                    <td>App Memory</td>
+                    <td>foo</td>
+                </tr>
+                <tr>
+                    <!-- <td>1</td> -->
+                    <!-- <td>1</td> -->
+                    <!-- <td>1</td> -->
+                    <td>App Test</td>
+                    <td>bar</td>
+                </tr>
+                <tr>
+                    <!-- <td>1</td> -->
+                    <!-- <td>1</td> -->
+                    <td>System Env2</td>
+                    <td>App Test</td>
+                    <td>bar</td>
+                </tr>
+                <tr>
+                    <!-- <td>1</td> -->
+                    <td rowspan="2">System Memory</td>
+                    <td rowspan="2">Memory Test</td>
+                    <td>Memory Func</td>
+                    <td>foo</td>
+                </tr>
+                <tr>
+                    <!-- <td>1</td> -->
+                    <!-- <td>1</td> -->
+                    <!-- <td>1</td> -->
+                    <td>App Test</td>
+                    <td>foo</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

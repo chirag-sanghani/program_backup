@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table</title>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 500px;
+                height:50px;
+                margin-bottom: 50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="name">
+            <caption>This is table</caption>
+            <colgroup>
+                <col span="1" bgcolor="pink">
+                <col span="2" bgcolor="red">
+                <col span="3" bgcolor="lightblue">
+                <col span="4" bgcolor="pink">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th colspan="2">Full Name</th>
+                    <!-- <th>Last name</th> -->
+                    <th>Position</th>
+                    <th>Salary</th>
+                </tr>   
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Chirag</td>
+                    <td>Sanghani</td>
+                    <td>Manager</td>
+                    <td>50000</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Keval</td>
+                    <td>Vaghasiya</td>
+                    <td>Team leader</td>
+                    <td rowspan="2">45000</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Bhautik</td>
+                    <td>Sojitra</td>
+                    <td>Devloper</td>
+                    <!-- <td>45000</td> -->
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Sachin</td>
+                    <td>Mer</td>
+                    <td>Team leader</td>
+                    <td>35000</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

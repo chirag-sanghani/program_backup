@@ -1,0 +1,12 @@
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button:after{
+    content: "";
+    /* height: 0;
+    width: 0; */
+}
+.accordion-button:after{
+    /* content: "+"; */
+}

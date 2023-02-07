@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: khaki;
+}
+
+.p-1{
+    border: 1px solid blueviolet;
+    border-width: 8px;
+    height: 80px;
+    border-style: double;
+    text-align:center;
+    font-size: 170%;
+    color:firebrick;
+}
+
+.text .para-3 p{
+    color:blue;
+}
+
+.para-1{
+    font-style: italic;
+    color:rgb(236, 44, 124);
+}
+
+.para-1 .para-2{
+    font-style: italic;
+    color: indigo;
+}
+
+.box-1{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    margin: 20px 20px;
+    border: 1px solid black;
+}
+
+.box-2{
+    height: 125px;
+    width: 125px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    margin: 2px 2px;
+}
+
+.border-style{
+    display:flex;
+    padding:10px;
+    border: width 10px;
+    border-style:dashed;
+    border-color:green;
+    border-top-width:10px; 
+    border-right-color:rgb(28, 32, 243);
+    border-left-style:ridge;    
+}
+
+.border-1{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border: 5px dashed purple;
+    border-radius: 20px 60px;
+}  
+
+.border-2{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+}
+
+.border-3{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: double;
+    border-color: red;
+}
+
+.border-4{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: red;
+    border-radius: 20px 40px 60px 80px;
+}
+
+.border-5{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: hidden;
+    border-color: red;
+}
+
+.border-6{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: inherit;
+    border-color: red;
+}
+
+.border-7{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: initial;
+    border-color: red;
+}
+
+.border-8{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: inset;
+    border-color: red;
+    border-radius: 30px 60px 40px;
+}
+
+.border-9{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: none;
+    border-color: red;
+}
+
+.border-10{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: red;
+}
+
+.border-11{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: red;
+}
+
+button{
+    border-color: blue;
+    border: 5px;
+    background-color: red   ;
+    padding: 5px 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover{
+    outline: 1px solid red;
+    outline-offset: 1px;
+    background-color: rgb(83, 247, 250);
+    color: red;
+}
+
+.demo-1{
+    height: 250px;
+    width: 900px;
+    border: 5px;
+    border-style: solid;
+    border-color: blue;
+    background-color: pink;
+    margin: 50px;
+    padding: 30px;
+}
+
+.content-box{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border: 5px solid red;
+    margin: 8px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.border-box{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border: 5px solid red;
+    margin: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.paragraph{
+    /* margin: 0; */
+    padding: 5px;
+    border: 3px dotted blue;
+    background-color: darkgoldenrod;
+    text-shadow: 2px 2px 5px red;
+    /* min-height: 10px; */
+    /* min-width: 20px; */
+    /* max-height: 600px; */
+    /* max-width: 2000px; */
+}
+
+ol{
+    list-style-type: armenian;
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+    list-style-type: disc;
+    list-style-type: georgian;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-latin;
+    list-style-type: lower-roman;
+    list-style-type: upper-alpha;
+    list-style-type: upper-latin;
+    list-style-type: upper-roman;
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: square;
+    list-style-type: circle;
+    list-style-type: disc;
+    list-style-image: url("../image/star.png");
+    list-style-position: inside;
+}
+
+.boox-1{
+    height: 250px;
+    width: 250px;
+    border: 2px solid red;
+    background-image: url("../image/star.png");
+    background-position-x: 10px;
+    background-position-y: 2px;
+    padding: 10px;
+}
+
+.boox-2{
+    height: 250px;
+    width: 250px;
+    border: 2px solid red;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keyword" content="keyword">
+        <meta name="discription" content="discription">
+        <meta name="author" content="author">
+        <meta name="viewport" content="width=device-width , initial-sacle=1.0">
+        <title>HTML</title>
+        <!-- favicone tag-->
+        <link rel="icon" type="x-icon/image" href="asset/eiffel-tower.jpg">
+        <style>
+            form{
+                background-color: red;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+	
+		<!-- meta tag -->
+        <!-- form tag -->
+   
+            <form action="" style="background-color: yellow; text-align: right;">
+                <fieldset>
+                    <legend>FORM in html</legend>
+                    <figcaption>Form in Html</figcaption><br>
+                    <label for="firstname">First_Name:</label>
+                    <input type="text" placeholder="First_Name Here" name="name" value="" required><br><br>
+                    <label>Last_Name:</label>
+                    <input type="text" required><br><br>
+                    <label>Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>Male</label>
+                    <input type="radio" name="form" value="" required>
+                    <label>Female</label>
+                    <input type="radio" name="form" value="" required><br><br>
+                    <label>Password:</label>&nbsp;&nbsp;&nbsp;
+                    <input type="password" required><br><br>
+                    <input type="submit">`
+                </fieldset>
+            </form>
+            <hr style="border-top:2px solid red;">
+        <!-- select tag -->
+            
+            <select name="" value="">
+                <option value="Opera">Opera</option>
+                <option value="Opera">Opera</option>
+                <option value="Firefox" selected>Firefox</option>
+                <option value="Safari">Safari</option>
+                <option value="Microsoft Edge" >Microsoft Edge</option>
+            </select>
+            <hr style="border-top:2px solid red;">
+        <!-- datalist tag -->
+            <input list="list" name="browsers" value="">
+            <datalist id="list">
+                <option value="Opera">
+                <option value="Crome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Microsoft Edge">
+            </datalist>
+            <hr style="border-top:2px solid red;">
+        <!-- span tag / inline tag -->
+            
+        
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde quibusdam ipsam quaerat inventore soluta ipsum natus, sit temporibus assumenda. <span style="color:red; font-weight:bold; text-decoration:underline;">Est voluptatem doloremque neque omnis voluptates adipisci</span> minus ullam vero voluptatibus.</p>
+            <hr style="border-top:2px solid red;">
+        <!-- iframe tag -->
+            <iframe src="Lecture-6.html" frameborder="0"></iframe>
+            <hr style="border-top:2px solid red;">
+        <!-- nav tag -->
+            
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Pages</a>
+                <a href="#">About</a>
+                <a href="#">Contect</a>
+                <a href="#">Blogs</a>
+                <a href="#">Other</a>
+            </nav>
+            <hr style="border-top:2px solid red;">
+
+        <!--audio and video tag -->
+            
+            <!-- audio tag -->
+
+                <audio controls>
+                    <source src="asset/audios.mp3" type="audio/mp3">
+                </audio>
+                <hr style="border-top:2px solid red;">
+            <!-- video tag -->
+
+                <video controls autoplay preload="auto" poster="asset/eiffel-tower.jpg" height="300px" widht="300px" loop="">
+                    <source src="asset/videos.mp4" type="video/mp4">
+                </video>
+                
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>HTML- LECTURE 2</title>
+</head>
+<body>
+    <!-- blocklevel tag / inline tag-->
+	<!-- heading tag / Block level tag-->
+			
+			<h1>this is heading tag</h1>
+			<h2>this is heading tag</h2>
+			<h3>this is heading tag</h3>
+			<h4>this is heading tag</h4>
+			<h5>this is heading tag</h5>
+			<h6>this is heading tag</h6>
+			
+    <!-- paragraphs tag  / p tag / Block level tag -->
+
+    <!-- p tag is not count of any space create in paragraphs-->
+
+    <!-- space in paragraphs use &nbsp; -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accusantium odio dolores amet, odit assumenda aspernatur commodi eos hic? Aperiam maxime corrupti quam rerum<br>
+            ducimus laborum fugit ipsum dolor perspiciatis alias.<br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quo quisquam incidunt cumque recusandae labore iste quasi voluptas debitis nemo maiores, magni aperiam similique exercitationem sequi quas repudiandae! Minima, nesciunt.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolore quisquam rerum nostrum eaque, sint dicta expedita temporibus quae doloremque iste at animi reprehenderit nisi repellat provident, voluptate itaque praesentium.
+        </p>
+
+    <!-- pre tag / preformtted tag / Block level tag -->
+        <pre>
+            this is preformtted text.
+            this is preformtted text.
+            this    is   
+                                preformtted     text.
+        </pre>
+
+    <!-- empty tag list below-->
+
+        <!-- br tag / line break tag-->
+            <br>
+        <!-- hr tag / horizontal rule tag -->
+            <hr>   
+
+    <!-- anchor tag with attributes / inline tag -->
+
+        <!-- target
+            _blank  :-
+
+            _self   :-
+        -->
+
+        <!-- web add on -->
+            <a href="URL" target="_blank/_self">Demo tag</a><br>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics" target="_blank">facebook</a><br>
+
+        <!-- file add on -->
+            <!-- File path
+                file is same loction as file in work direct file name and its extenstion example:-  href="day-1.html"
+                file is contain other folder name is html-1 so file path is examples:-  href="html-1/day-1.html"
+                file is contain outside folder so path is example :-  href="../day-1.html"
+            -->
++
+            <a href="filepath/filename.extenstion" target="_blank">Demo file</a><br>
+            <a href="htmldemo.html" target="_blank">Html file demo 1</a><br>
+            <a href="image/image1/imagedemo.jpg" target="_blank">Html file demo 2</a><br>
+            <a href="../../" target="_blank">Html file demo 3</a><br>
+
+        <!-- email add on -->
+            <!-- Note: anchor tag email structure not use target becuase this is open in default another programme-->
+            <a href="mailto:ifmdac@gmail.com">Email:-ifmdac@gmail.com</a><br>
+        <!-- telephone add on -->
+            <!-- Note: anchor tag telephone structure not use target becuase this is open in default another programme-->
+            <a href="tel:99135224545">phone no:-99135224545</a><br>
+			
+</body>
+</html>

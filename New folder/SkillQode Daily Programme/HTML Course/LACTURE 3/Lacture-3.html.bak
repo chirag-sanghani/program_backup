@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML- LECTURE 2</title>
+</head>
+<body>
+		<!-- image tag / inline tag -->
+            <img src="imagepath/imagename.extenstion" alt="image" height="100" width="200" align="left/right">
+
+            <img src="image1.jpg" alt="imagedemo" height="500" width="500" align="left">
+
+            <img src="image/imagedemo.jpg" alt="imagedemo" height="500" width="500" align="right">
+			
+        <!-- blockquote tag / block level tag -->
+            <blockquote cite="https://www.lorem.com">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sit accusamus atque quisquam, distinctio officiis veniam, debitis autem, hic magnam quos aliquam temporibus. Quibusdam dignissimos vitae in repellendus esse cum.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo earum, reiciendis amet rem commodi minima exercitationem odio sequi at, consequatur non, iste libero! Ea ipsam consequuntur, facere explicabo iusto eos.
+            </blockquote>
+
+        <!-- bdo tag / bi-directional overide tag / inline tag -->
+            <bdo dir="">this is default direction text.</bdo>
+            <bdo dir="rtl">this is right to left direction text.</bdo>
+
+        <!-- abbr tag / abbriviation tag / inline tag -->
+        <!-- hover the mouse in HTML text after show full form-->
+            <abbr title="Hypertext Markup Language">HTML</abbr><br>
+
+        <!-- address tag / block level tag -->
+            <address>
+                Name: John Doe<br>
+                Street: WE-49<br>
+                Area:Belegarow<br>
+                City:Washington-Dc<br>
+                Email:<a href="mailto:ifmdac@gmail.com">Ifmdac@gmail.com</a><br>
+                Phone no:<a href="tel:9913565897">9913565897</a>
+            </address>
+
+        <!-- Q tag / Quotation tag / inline tag-->
+            <q>this is quoted text.</q>
+
+</body>
+</html>

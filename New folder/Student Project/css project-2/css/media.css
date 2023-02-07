@@ -1,0 +1,43 @@
+@media (max-width:1200px){
+
+}
+
+@media (max-width:480px){
+    .navigation{
+        display: none;
+    }
+    .maindiv{
+        justify-content: space-between;
+    }
+    .bar{
+        padding: 0;
+        order: 2;
+        margin-right: 20px;
+    }
+    .logo{
+        padding: 0;
+        margin-left: 20px;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .social{
+        display: none;
+    }
+    .para-11{
+    max-width: 380px;
+    margin: auto;
+    }
+    .text{
+        margin-top: 100px;
+    }
+    .text-1{
+        margin: 0;
+    }
+    .thirddiv-1{
+        display: none;
+    }
+    .thirddiv-2{
+        display: block;
+    }
+}
